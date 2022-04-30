@@ -39,7 +39,7 @@ namespace Ragon.Tools
 #if UNITY_EDITOR_OSX
           Builder.BuildClientMacOnly();
 #else
-      ProjectBuilder.BuildClientWinOnly();
+	      Builder.BuildClientWinOnly();
 #endif
         }
 
@@ -52,7 +52,7 @@ namespace Ragon.Tools
 #if UNITY_EDITOR_OSX
           Builder.BuildClientMacOnly();
 #else
-          ProjectBuilder.BuildClientWinOnly();
+          Builder.BuildClientWinOnly();
 #endif
         }
 
@@ -63,7 +63,7 @@ namespace Ragon.Tools
 #if UNITY_EDITOR_OSX
           Builder.BuildClientMacOnly();
 #else
-          ProjectBuilder.BuildClientWinOnly();
+          Builder.BuildClientWinOnly();
 #endif
       }
 
